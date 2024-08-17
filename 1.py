@@ -193,6 +193,4 @@ merged_list = LinkedList()
 
 merged_list.head = merged_list.merge(llist.head, otherllist.head)
 
-# merged_list.merge(llist.head, otherllist.head)
-
 merged_list.print_list()
