@@ -82,7 +82,7 @@ class LinkedList:
         # Розділяємо список на дві половини
         second_half = slow.next
         slow.next = None
-        
+      
         # Рекурсивно сортуємо кожну половину
         left = self.merge_sort()
 
